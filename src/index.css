@@ -5,6 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+.container{
+  margin: 2% 25% 2% 25%;
+  border: 10px solid rgb(84, 84, 84);
+  padding: 2% 2% 2% 2%;
+}
+
+.profilediv{
+  display: inline-flex;
+}
+
+.profile{
+  height: 80px;
+  width: 90px;
+}
+
+.date{
+  font-size: 14px;
+  text-align: left;
+  color: rgb(106, 106, 106);
+}
+
+.post{
+  height: 500px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2% 1% 2% 1%;
+}
+
+.like{
+  padding: 1% 2% 1% 2%;
+  height: 25px;
+  width: 30px;
+}
+
+.comment{
+  padding: 1% 2% 1% 2%;
+  height: 25px;
+  width: 30px;
+}
+
+.share{
+  padding: 1% 2% 1% 2%;
+  height: 25px;
+  width: 30px;
 }
 
 code {
